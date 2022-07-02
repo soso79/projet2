@@ -1,0 +1,629 @@
+body{
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+
+
+p{
+
+	font-size: 15px;
+	margin-left: 10px;
+	
+}
+
+h1, h2{
+
+	
+	font-size: 20px;
+	font-style: italic;
+
+}
+
+
+
+
+header{
+	border: 2px solid blue;
+}
+
+
+/* on dispose les elements du nav et on les espace entre eux*/
+
+
+nav{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+/* on met les elements de la liste en flex et on enleve les points*/
+
+nav ul{
+
+
+	display: flex;
+	list-style: none;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+
+
+
+}
+
+/*ici on donne la taille du logo*/
+
+
+nav img{
+
+
+	height: 40px;
+	width: 95px;
+	margin: 0 0 0 10px;
+}
+
+
+/*ici on evite que les li soit coller entre eux et aussi a la fin de la page*/
+
+nav li{
+
+
+	margin : 0 10px 0 20px;
+
+}
+
+nav a{
+
+	font-size: 15px;
+}
+
+#bloc_principal{
+    width: 95%;
+	height: auto;
+    border: 2px solid green;
+	margin: auto;
+}
+
+#recherche{
+	display: flex;
+	align-items: baseline;
+}
+
+
+#filters{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 50px;
+	border: 2px solid red;
+  }
+
+  .filtre{
+
+  	border: 2px solid #F2F2F2;
+  	border-radius: 25px;
+  	width:300px ;
+  	display: flex;
+  	align-items: baseline;
+
+
+
+
+
+  }
+
+
+#hebergements{
+
+	display: flex;
+	width: 70%;
+	height: 800px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #F2F2F2;
+	
+	
+
+
+
+
+
+}
+
+.title{
+
+	min-width: 100%;
+	height: 100px;
+	border: 2px solid red;
+
+}
+
+#hebergements img{
+
+    width: 290px;
+	height: 150px;
+	border-radius: 20px 20px 0px 0px ;
+	margin-left: 5px;
+	margin-top: 3px;
+	background-color:  #F2F2F2;
+
+
+
+}
+
+.item{
+
+	width: 300px;
+	height: 228px;
+	border-radius: 20px;
+	
+	background-color: white;
+	box-shadow: 4px 4px 10px grey;
+
+
+
+}
+
+#affichage{
+	width: 100%;
+	border-radius: 20px;
+	border: 5px solid red;
+	display: flex;
+	align-items: center;
+	
+
+}
+
+
+
+
+aside{
+	display: flex;
+	height: 800px;
+	width: 600px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	
+	
+	background-color: #F2F2F2;
+	
+
+
+}
+
+
+aside img{
+    
+	height: 140px;
+	width: 160px;
+	border-radius: 20px 0 0 20px;
+	margin-top: 5px;
+	
+
+	
+}
+
+#star{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+
+	
+	border-radius: 20px;
+	border: 2px solid red;
+	width: 450px;
+	height: 50px;
+}
+
+.item_aside{
+
+    border-radius: 20px;
+	border: 2px solid red;
+	width: 450px;
+	height: 150px;
+	background-color: white;
+	display: flex;
+	box-shadow: 4px 4px 10px grey;
+
+	
+
+	
+	
+	
+}
+
+
+
+#haut{
+
+	display: flex;
+	justify-content: space-between;
+	border: 5px solid orange;
+	align-items: center;
+}
+
+#bas{
+	
+
+	border: 2px solid violet;
+	margin-top: 100px;
+
+	
+}
+#activites{
+
+	
+	
+	
+}
+
+#general{
+
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 600px;
+}
+
+
+#one{
+
+	box-shadow: 4px 4px 10px grey;
+	width: 25%;
+
+}
+
+#two{
+
+	box-shadow: 4px 4px 10px grey;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 25%;
+
+
+}
+
+#three{
+
+	box-shadow: 4px 4px 10px grey;
+	width: 25%;
+
+}
+
+#four{
+
+	box-shadow: 4px 4px 10px grey;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 25%;
+
+}
+
+
+#micro{
+
+	border: 2px solid red;
+}
+
+
+#micro2{
+
+	border: 2px solid red;
+}
+
+
+
+
+#mini {
+
+
+	border: 2px solid red;
+	border-radius: 15px;
+}
+
+
+#mini2 {
+
+
+	border: 2px solid red;
+	border-radius: 15px;
+}
+
+
+.images_grandes{
+
+
+height: 350px;
+width: 280px;
+border-radius: 20px 20px 0 0;
+
+
+}
+
+#images_one{
+
+height: 160px;
+width: 280px;
+border-radius: 20px 20px 0 0;
+
+
+}
+
+
+
+#images_two{
+
+height: 140px;
+width: 100%;
+object-fit: cover;
+border-radius: 20px 20px 0 0;
+margin-top: 50px;
+
+
+}
+
+
+#images_three{
+
+height: 140px;
+width: 280px;
+border-radius: 20px 20px 0 0;
+
+
+}
+
+
+#images_four{
+
+height: 160px;
+width: 280px;
+border-radius: 20px 20px 0 0;
+
+
+}
+
+
+footer{
+	width: 100%;
+    
+	background-color: #F2F2F2;
+	
+}
+
+#foot{
+	display: flex;
+	justify-content: flex-start;
+	justify-content: space-between;
+	margin-left: 40px;
+	width: 70%;
+	
+}
+
+
+
+
+
+
+
+
+a{
+
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	
+}
+
+
+
+
+.circle-icon{
+
+	
+	font-size: 30px;
+	
+}
+
+
+
+
+.te{
+
+width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: solid red;
+	background-color: #DEEBFF;
+	color: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+
+#ola{
+
+	font-size: 16px;
+
+
+}
+
+
+
+.checked{
+
+color:#0065FC ;
+}
+
+.clear{
+
+	color: #F2F2F2;
+}
+.etoile{
+
+	color: black;
+}
+h3{
+	font-size: 10px;
+}
+
+#recherche{
+
+	border: 2px solid red;
+	display: flex;
+
+
+}
+#bouton{
+	background-color: #0065FC ;
+	color: white;
+	width: 150px;
+	border-radius: 10px;
+
+}
+.pointeur{
+	background-color:#F2F2F2;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px)
+{
+
+
+#bloc_principal{
+
+	width: auto;
+
+}
+
+
+
+nav{
+
+	width: auto;
+	flex-direction: column;
+
+}
+nav ul{
+
+
+}
+
+#recherche{
+	width: auto;
+}
+#filters{
+	width:450px ;
+	height: 100%;
+	flex-direction: column;
+	flex-wrap: wrap;
+	border: 2px solid green;
+
+}
+#haut{
+	width: auto;
+	height: auto;
+	flex-direction: column-reverse;
+}
+#hebergements{
+	width: auto;
+	background-color: white;
+	
+	height: auto;
+	
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+aside{
+	width: auto;
+	margin-top: 50px;
+	
+}
+
+#foot{
+	flex-direction: column;
+}
+
+#activites{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+width: auto;
+height: auto;
+}
+
+.item{
+	margin-top: 20px;
+}
+
+#affichage{
+	margin-top: 20px;
+}
+
+#activites img{
+
+	width: 350px;
+	height: 250px;
+	
+}
+
+#general{
+	height: auto;
+	flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
