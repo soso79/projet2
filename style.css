@@ -135,7 +135,7 @@ nav a{
 
 .title{
 
-	min-width: 100%;
+	width: 100%;
 	height: 100px;
 	border: 2px solid red;
 
@@ -255,26 +255,24 @@ aside img{
 
 	
 }
-#activites{
 
-	
-	
-	
-}
+
 
 #general{
 
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	width: 100%;
-	height: 600px;
+	height: 450px;
 }
 
 
 #one{
 
 	box-shadow: 4px 4px 10px grey;
-	width: 25%;
+	width: 280px;
+	height: 95%;
+	border-radius: 20px 20px 20px 20px;
 
 }
 
@@ -284,7 +282,10 @@ aside img{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 25%;
+	width: 300px;
+	height: 95%;
+	border: 2px solid red;
+	border-radius: 20px 20px 20px 20px;
 
 
 }
@@ -292,7 +293,9 @@ aside img{
 #three{
 
 	box-shadow: 4px 4px 10px grey;
-	width: 25%;
+	width: 280px;
+	height: 95%;
+	border-radius: 20px 20px 20px 20px;
 
 }
 
@@ -302,7 +305,10 @@ aside img{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 25%;
+	width: 300px;
+	height: 95%;
+	border-radius: 20px 20px 20px 20px;
+
 
 }
 
@@ -310,12 +316,16 @@ aside img{
 #micro{
 
 	border: 2px solid red;
+	border-radius: 20px 20px 20px 20px;
+	
 }
 
 
 #micro2{
 
 	border: 2px solid red;
+	border-radius: 20px 20px 20px 20px;
+	
 }
 
 
@@ -340,17 +350,17 @@ aside img{
 .images_grandes{
 
 
-height: 350px;
+height: 380px;
 width: 280px;
-border-radius: 20px 20px 0 0;
+border-radius: 20px 20px 20px 20px;
 
 
 }
 
 #images_one{
 
-height: 160px;
-width: 280px;
+height: 180px;
+width: 100%;
 border-radius: 20px 20px 0 0;
 
 
@@ -360,11 +370,11 @@ border-radius: 20px 20px 0 0;
 
 #images_two{
 
-height: 140px;
+height: 90px;
 width: 100%;
 object-fit: cover;
 border-radius: 20px 20px 0 0;
-margin-top: 50px;
+
 
 
 }
@@ -372,8 +382,8 @@ margin-top: 50px;
 
 #images_three{
 
-height: 140px;
-width: 280px;
+height: 160px;
+width: 100%;
 border-radius: 20px 20px 0 0;
 
 
@@ -382,8 +392,8 @@ border-radius: 20px 20px 0 0;
 
 #images_four{
 
-height: 160px;
-width: 280px;
+height: 120px;
+width: 100%;
 border-radius: 20px 20px 0 0;
 
 
@@ -507,7 +517,8 @@ h3{
 
 #bloc_principal{
 
-	width: auto;
+	width: 100%;
+
 
 }
 
@@ -515,7 +526,7 @@ h3{
 
 nav{
 
-	width: auto;
+	width: 100%;
 	flex-direction: column;
 
 }
@@ -541,20 +552,33 @@ nav ul{
 	flex-direction: column-reverse;
 }
 #hebergements{
-	width: auto;
+	width: 100%;
 	background-color: white;
-	
 	height: auto;
-	
 	flex-direction: column;
 	justify-content: space-between;
+	margin-top: 50px;
+	
 	
 }
 
 aside{
-	width: auto;
+	width: 100%;
 	margin-top: 50px;
 	
+	
+}
+.item_aside{
+
+	height: 25%;
+	width: 90%;
+	margin-top: 10px;
+}
+
+aside img{
+
+	height: 95%;
+	margin-left: 5px;
 }
 
 #foot{
@@ -566,28 +590,22 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
-width: auto;
+width: 100%;
 height: auto;
 }
 
-.item{
-	margin-top: 20px;
-}
+
 
 #affichage{
 	margin-top: 20px;
 }
 
-#activites img{
 
-	width: 350px;
-	height: 250px;
-	
-}
 
 #general{
-	height: auto;
+	height: 100%;
 	flex-direction: column;
+
 }
 
 
@@ -597,18 +615,89 @@ height: auto;
 }
 
 
+.item{
+	width: 90%;
+	height: auto;
+	margin-top: 20px;
+	margin-left: 20px;
+	
+}
+
+#one{
+	width: 88%;
+	border: 5px solid red;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
 
 
+#two{
+	width: 88%;
+	border: 5px solid red;
+	margin-top: 20px;
+	margin-left: 20px;
+
+	
+}
+
+#three{
+	width: 88%;
+	border: 5px solid red;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+#four{
+	width: 88%;
+	border: 5px solid red;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+#hebergements img{
+	width: 98%
+}
+
+#activites img{
+	
+	width: 100%;
+}
+#mini2{
+	margin-top: 20px;
+}
+
+#micro2{
+	margin-top: 20px;
+}
+
+.images_grandes{
+	height: 200px;
+}
+
+#images_one{
+	height: 200px;
+}
 
 
+#images_two{
+	height: 200px;
+}
 
 
+#images_three{
+	height: 200px;
+}
 
 
+#images_four{
+	height: 200px;
+}
 
 
-
-
+hello
 
 
 
