@@ -109,8 +109,28 @@ nav a{
   	display: flex;
   	align-items: baseline;
 
+  }
+
+  .filtrespeciale1{
+
+    border: 2px solid #F2F2F2;
+  	border-radius: 25px;
+  	width:300px ;
+  	display: flex;
+  	align-items: baseline;
 
 
+  }
+
+
+  .filtrespeciale2{
+
+
+    border: 2px solid #F2F2F2;
+  	border-radius: 25px;
+  	width:300px ;
+  	display: flex;
+  	align-items: baseline;
 
 
   }
@@ -539,10 +559,12 @@ nav ul{
 	width: auto;
 }
 #filters{
-	width:450px ;
+	width:100%;
 	height: 100%;
-	flex-direction: column;
+	display: flex;
 	flex-wrap: wrap;
+	
+	
 	border: 2px solid green;
 
 }
@@ -697,9 +719,29 @@ height: auto;
 }
 
 
-hello
+#speciale{
+	color: red;
+	width: 100%;
+
+}
 
 
+
+.filtre{
+	width: 40%;
+}
+
+.filtrespeciale1{
+	color: yellow;
+	width: 40%;
+	margin-top: 10px;
+}
+
+.filtrespeciale2{
+
+	margin-top: 10px;
+	width: 60%;
+}
 
 
 
