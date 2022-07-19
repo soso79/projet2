@@ -37,8 +37,9 @@
               </nav>
 
 
-    <h1>Trouver votre hebergement a Marseille</h1>
-    <p>En plein centre ville ou en pleine nature</p>
+    <h1>Trouver votre hebergement pour des vacances de rêve</h1>
+    <p id="mario">Trouver votre hébergement</br>pour des vacances de réve</p>
+    <p id="megaman">En plein centre ville ou en pleine nature</p>
 
 
     <div id="recherche">
@@ -46,10 +47,12 @@
 
         <i class="fa-solid fa-location-dot pointeur"></i>
 
-              <form method="post" action="traitement.php">
+              <form id="nautilus" method="post" action="traitement.php">
     
         <input type="text" name="ville" value="Marseille,ville" />
         <input id="bouton" type="submit" value="Rechercher" />
+
+        <i class="fa-solid fa-search loop "></i>
     
 
 </form>
@@ -140,10 +143,10 @@
 
                 <img src="images/auberge_la_cannebiere.jpg" alt="auberge cannebiere"/>
 
-                 <p>Auberge la Cannebiére</br>
+                 <p class="ecriture"><strong>Auberge la Cannebiére</strong></br>
 
 
-                 nuit a partir de 25€</br>
+                 Nuit a partir de 25€</br>
 
                  <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
@@ -162,10 +165,10 @@
 
                 <img src="images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="logo booki"/>
 
-                 <p>Hôtel du Port</br>
+                 <p class="ecriture"><strong>Hôtel du Port</strong></br>
 
 
-                 nuit a partir de 52€</br>
+                 Nuit a partir de 52€</br>
 
                  <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
@@ -186,11 +189,11 @@
 
                 <img src="images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo"/>
 
-                 <p>Hôtel les mouettes</br>
+                 <p class="ecriture"><strong>Hôtel les mouettes</strong></br>
 
 
 
-                 nuit a partir de 76€</br>
+                 Nuit a partir de 76€</br>
 
                  <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
@@ -211,10 +214,10 @@
 
                 <img src="images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo"/>
 
-                 <p>Hôtel de la mer</br>
+                 <p class="ecriture"><strong>Hôtel de la mer</strong></br>
 
 
-                 nuit a partir de 45€</br>
+                 Nuit a partir de 45€</br>
 
                  <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
@@ -234,9 +237,9 @@
 
                 <img src="images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo"/>
 
-                 <p>Auberge le Panie</br>
+                 <p class="ecriture"><strong>Auberge le Panie</strong></br>
 
-                 nuit a partir de 23€</br>
+                 Nuit a partir de 23€</br>
 
                  <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
@@ -257,10 +260,10 @@
 
                 <img src="images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo"/>
 
-                 <p>Hôtel chez Amina</br>
+                 <p class="ecriture"><strong>Hôtel chez Amina</strong></br>
 
 
-                 nuit a partir de 96€</br>
+                 Nuit a partir de 96€</br>
 
                  <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
@@ -300,13 +303,13 @@
 
                 <img src="images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo"/>
 
-                 <p>Hôtel Le soleil du<br/> matin<br/> nuit a partir de 25€</br>
+                 <p class="ecriture"><strong>Hôtel Le soleil du<br/> matin</strong><br/> Nuit a partir de 25€</br>
 
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked stars_aside"></span>
+                 <span class="fa fa-star checked stars_aside"></span>
+                 <span class="fa fa-star checked stars_aside"></span>
+                 <span class="fa fa-star checked stars_aside"></span>
+                 <span class="fa fa-star checked stars_aside"></span>
 
              </p>
 
@@ -321,16 +324,16 @@
 
                 <img src="images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo"/>
 
-                 <p>Au coeur de l'eau</br>Chambres d'hôtes</br>
+                 <p class="ecriture"><strong>Au coeur de l'eau</strong></br>Chambres d'hôtes</br>
 
 
-                 nuit a partir de 25€</br>
+                 Nuit a partir de 25€</br>
 
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star clear"></span>
+                 <span class="fa fa-star checked stars_aside"></span>
+                 <span class="fa fa-star checked stars_aside"></span>
+                 <span class="fa fa-star checked stars_aside"></span>
+                 <span class="fa fa-star checked stars_aside"></span>
+                 <span class="fa fa-star clear stars_aside"></span>
 
 
 
@@ -349,16 +352,21 @@
 
                 <img src="images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo"/>
 
-                 <p>Hôtel Tout bleu et</br>Blanc</br>
+                 <p class="ecriture"><strong>Hôtel Tout bleu et</br>Blanc</strong></br>
                      
 
-                nuit a partir de 25€</br>
+                Nuit a partir de 25€</br>
 
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star clear"></span>
+
+                
+
+                 <span class="fa fa-star checked stars_aside"></span>
+                 <span class="fa fa-star checked stars_aside"></span>
+                 <span class="fa fa-star checked stars_aside"></span>
+                 <span class="fa fa-star checked stars_aside"></span>
+                 <span class="fa fa-star clear stars_aside"></span>
+
+             
 
 
 
@@ -391,7 +399,7 @@
 
                 <img class="images_grandes" src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo"/>
 
-                 <p>Vieux Port</p>
+                 <p class="ecriture"><strong>Vieux Port</strong></p>
 
              </article>
 
@@ -405,7 +413,7 @@
 
                 <img id="images_one" src="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo"/>
 
-                 <p>Fort de Pomégues</p>
+                 <p class="ecriture"><strong>Fort de Pomégues</strong></p>
 
              </article>
 
@@ -413,7 +421,7 @@
 
                  <img id="images_two" src="images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo"/>
 
-                 <p>îles du Frioul</p>
+                 <p class="ecriture"><strong>îles du Frioul</strong></p>
 
 
              </article>
@@ -427,7 +435,7 @@
 
                 <img class="images_grandes" src="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo"/>
 
-                 <p>parc national des calanques</p>
+                 <p class="ecriture"><strong>parc national des calanques</strong></p>
 
              </article>
 
@@ -441,7 +449,7 @@
 
                 <img id="images_three" src="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo"/>
 
-                 <p>Notre-Dame-De-La-Garde</p>
+                 <p class="ecriture"><strong>Notre-Dame-De-La-Garde</strong></p>
              </article>
             
 
@@ -451,7 +459,7 @@
 
                  <img id="images_four" src="images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo"/>
 
-                 <p>Parc Longchamps</p>
+                 <p class="ecriture"><strong>Parc Longchamps</strong></p>
 
              </article>
 
