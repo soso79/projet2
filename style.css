@@ -908,27 +908,27 @@ h3{
 
 
 
-#speculos{
-	display: inline-block;
-	font-size: 30px;
-	margin-left: 50px;
-}
+	#speculos{
+		display: inline-block;
+		font-size: 30px;
+		margin-left: 50px;
+	}
 
 
 
-#kyosho{
-	display: none;
-}
+	#kyosho{
+		display: none;
+	}
 
-#bandeau{
+	#bandeau{
 
-	margin-left: 10px;
-}
+		margin-left: 10px;
+	}
 
-#recherche{
-	border: 2px solid #F2F2F2;
-	
-}
+	#recherche{
+		border: 2px solid #F2F2F2;
+		
+	}
 
 }
 
