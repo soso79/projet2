@@ -391,7 +391,7 @@ aside img{
 #one{
 
 	box-shadow: 4px 4px 10px grey;
-	width: 280px;
+	width: 23%;
 	height: 95%;
 	border-radius: 20px 20px 20px 20px;
 
@@ -403,7 +403,7 @@ aside img{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 300px;
+	width: 23%;
 	height: 95%;
 	border-radius: 20px 20px 20px 20px;
 	
@@ -414,7 +414,7 @@ aside img{
 #three{
 
 	box-shadow: 4px 4px 10px grey;
-	width: 280px;
+	width: 23%;
 	height: 95%;
 	border-radius: 20px 20px 20px 20px;
 
@@ -426,7 +426,7 @@ aside img{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 300px;
+	width: 23%;
 	height: 95%;
 	border-radius: 20px 20px 20px 20px;
 
@@ -478,7 +478,7 @@ aside img{
 
 
 	height: 380px;
-	width: 280px;
+	width: 100%;
 	border-radius: 20px 20px 20px 20px;
 
 
@@ -489,6 +489,7 @@ aside img{
 	height: 180px;
 	width: 100%;
 	border-radius: 20px 20px 0 0;
+	object-fit: cover;
 
 
 }
@@ -501,6 +502,7 @@ aside img{
 	width: 100%;
 	object-fit: cover;
 	border-radius: 20px 20px 0 0;
+	object-fit: cover;
 
 
 
@@ -512,6 +514,7 @@ aside img{
 	height: 160px;
 	width: 100%;
 	border-radius: 20px 20px 0 0;
+	object-fit: cover;
 
 
 }
@@ -522,6 +525,7 @@ aside img{
 	height: 120px;
 	width: 100%;
 	border-radius: 20px 20px 0 0;
+	object-fit: cover;
 
 
 }
