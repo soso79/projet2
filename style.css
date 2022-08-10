@@ -143,7 +143,7 @@ nav a{
 
 
 #bloc_principal{
-	width: 95%;
+	width: auto;
 	height: auto;
 
 	margin: auto;
@@ -633,7 +633,7 @@ h3{
 
 	#bloc_principal{
 
-		width: 100%;
+		width: auto;
 
 
 	}
@@ -647,8 +647,23 @@ h3{
 
 	}
 
+	nav ul{
+
+		display: flex;
+		
+		
+		padding-left: 0px;
+		
+		justify-content: center;
+		
+		
+		
+	}
+
 	nav li{
-		margin: 0 100px 0 10px;
+		margin-right: 80px;
+		margin-left: 10px;
+		
 
 
 	}
@@ -682,8 +697,11 @@ h3{
 
 	aside{
 		width: 100%;
+		height: 600px;
 		
 		border-radius: 0px;
+		margin-bottom: 40px;
+		
 
 
 
@@ -692,7 +710,7 @@ h3{
 
 		height: 150px;
 		width: 90%;
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 
 	.item_aside img{
@@ -731,7 +749,7 @@ h3{
 
 
 	.item{
-		width: 90%;
+		width: 88%;
 		height: auto;
 		margin-top: 20px;
 		margin-left: 20px;
@@ -941,6 +959,26 @@ h3{
 
 	}
 	#haut{
+		margin-top: 50px;
+	}
+
+	ul{
+		width: 490px;
+		border-bottom: 2px solid grey;
+
+
+	}
+
+	a:hover{
+		text-decoration: underline;
+		color: blue;
+	}
+
+	#star{
+		justify-content: space-around;
+
+	}
+	footer{
 		margin-top: 50px;
 	}
 
