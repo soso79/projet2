@@ -1,6 +1,8 @@
 body{
-	margin: 0px;
+	
 	font-family: 'Raleway', sans-serif;
+	margin: 0px;
+	padding: 0px;
 	
 }
 
@@ -143,10 +145,11 @@ nav a{
 
 
 #bloc_principal{
-	width: auto;
+	width: 95%;
 	height: auto;
-
 	margin: auto;
+
+	
 }
 
 #recherche{
@@ -366,12 +369,13 @@ aside img{
 	align-items: center;
 	height: 700px;
 	margin-top: 5px;
+	width: 100%;
 }
 
 #bas{
 	
 
-	
+	width: 100%;
 	margin-top: 50px;
 
 	
@@ -632,10 +636,7 @@ h3{
 
 
 	#bloc_principal{
-
-		width: auto;
-
-
+		width: 100%;
 	}
 
 
@@ -644,32 +645,48 @@ h3{
 
 		width: 100%;
 		flex-direction: column;
+		
 
 	}
 
 	nav ul{
 
 		display: flex;
-		
-		
+		height: 30px;
+		width: 100%;
 		padding-left: 0px;
-		
 		justify-content: center;
 		
+
+		
 		
 		
 	}
 
-	nav li{
-		margin-right: 80px;
-		margin-left: 10px;
+	nav li:hover{
 		
-
-
+		
+		border-bottom: 2px solid #0065FC;
+		
 	}
+
+nav li{
+	
+	margin: 0px;
+	width: 50%;
+	text-align: center;
+}
+
+
+
+
+
+
+
 
 	#recherche{
-		width: auto;
+		width: 100%;
+		border: 2px solid red;
 	}
 	#filters{
 		width:100%;
@@ -680,7 +697,7 @@ h3{
 
 	}
 	#haut{
-		width: auto;
+		width: 100%;
 		height: auto;
 		flex-direction: column-reverse;
 	}
@@ -736,13 +753,16 @@ h3{
 
 	#affichage{
 		margin-top: 20px;
+		width: 100%;
 	}
 
 
 
 	#general{
+
 		height: 100%;
 		flex-direction: column;
+		width: 100%;
 
 	}
 
@@ -883,10 +903,11 @@ h3{
 	#bas{
 
 		margin-top: 0px;
+		width: 100%;
 	}
 	h1{
 
-		max-width: 400px;
+		
 		text-align: center;
 		margin-left: 5%;
 		width: 80%;
@@ -963,24 +984,41 @@ h3{
 	}
 
 	ul{
-		width: 490px;
-		border-bottom: 2px solid grey;
+		width: 100%;
+		border-bottom: 2px  solid #F2F2F2;
 
 
 	}
 
-	a:hover{
-		text-decoration: underline;
-		color: blue;
-	}
+	
 
 	#star{
 		justify-content: space-around;
+		width: 100%;
 
 	}
 	footer{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 		margin-top: 50px;
+		width: 100%;
 	}
+
+	#populaire{
+		width: 100%;
+	}
+
+	.pied_de_page h2{
+
+		margin: 0px;
+	}
+	.pied_de_page{
+		margin-bottom: 20px;
+		margin-top: 20px;
+
+	}
+
 
 }
 
