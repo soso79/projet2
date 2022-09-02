@@ -6,57 +6,14 @@ body{
 	
 }
 
-
-.loop{
-
-	display: none !important;
-
-
-}
-
-#speculos{
-	display: none;
-}
-
-#mario{
-
-
-	display: none !important;
-}
-
-.ecriture{
-
-
-	margin-left: 10px;
-	font-size: 15px;
-	margin-top: 5px;
-}
-
-p{
-
-	font-size: 15px;
-	margin-left: 10px;
-	
-}
-
-h1, h2{
+#bloc_principal{
+	width: 95%;
+	height: auto;
+	margin: auto;
+	padding: auto;
 
 	
-	font-size: 20px;
-	
-
 }
-
-#titi{
-	font-size: 20px;
-
-}
-
-#titi2{
-	font-size: 20px;
-}
-
-
 
 
 
@@ -110,20 +67,50 @@ nav a{
 
 	font-size: 15px;
 }
+/* ici nous donnons taille et style a divers éléments comme les titres , liens */
+
+p{
+
+	font-size: 15px;
+	margin-left: 10px;
+	
+}
+
+h1, h2{
+
+	font-size: 20px;
+
+}
 
 
-#bandeau{
+a{
+
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	
+}
+
+h3{
+	font-size: 10px;
+}
+
+
+/*ici commence la partie recherche du site avec divers particularités comme l affichage ou non de divers texte ou logo*/
+
+#speculos{
+	display: none;
+}
+
+
+#recherche{
 
 	display: flex;
-	align-items: baseline;
+	align-items: center;
+
 }
 
-.soprano{
-
-	font-size: 18px;
-	
-	
-}
+/*ici nous donnons forme au logo grace la div can*/
 
 #can{
 
@@ -137,29 +124,22 @@ nav a{
 
 }
 
+
+
+.soprano{
+
+	font-size: 18px;
+	
+	
+}
+
+/*ici nous trouvons la barre de recherche ainsi que son bouton*/
+
 #nautilus{
 
 	border: 2px solid #F2F2F2;
 	height: 38px;
 	font-size: 15px;
-
-}
-
-
-#bloc_principal{
-	width: 95%;
-	height: auto;
-	margin: auto;
-	padding: auto;
-
-	
-}
-
-#recherche{
-	display: flex;
-	align-items: center;
-	
-
 
 }
 
@@ -173,6 +153,17 @@ nav a{
 
 }
 
+/*en version desktop la loupe n est pas affichée*/
+
+
+.loop{
+
+	display: none !important;
+
+}
+
+
+/*ici commence la partie filtre du site*/
 
 #filters{
 	display: flex;
@@ -221,9 +212,41 @@ nav a{
 
 
 }
+/*ici nous donnons forme et style aux logos qui composent nos différents filtres*/
+
+.circle-icon{
+
+	
+	font-size: 20px;
+	color: #0065FC ;
+	
+}
+
+
+
+
+.te{
+
+	width: 45px;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #DEEBFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+
+
+/* nous avons dans cette partie la mise en forme du banbeau ainsi que son logo information*/
+
 #bandeau{
 	margin-top: 20px;
 	height: 100px;
+	display: flex;
+	align-items: baseline;
 }
 
 
@@ -239,9 +262,27 @@ nav a{
 
 }
 
-.coco{
+
+
+.information{
 	color: blue;
 	font-size: 15px;
+}
+
+
+
+
+/*ici commence la partie haute du site et l utilisation de flexbox afin de disposer les différents éléments*/
+
+#haut{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 700px;
+	margin-top: 5px;
+	width: 100%;
+	
 }
 
 
@@ -249,7 +290,7 @@ nav a{
 
 	display: flex;
 	width: 65%;
-	height: 100%;
+	height: 700px;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	background-color: #F2F2F2;
@@ -264,10 +305,40 @@ nav a{
 	height: 10%;
 	margin-top: 10px;
 	margin-left: 10px;
-	border: 2px solid red;
+	
 	
 
 }
+
+
+
+#titi{
+	font-size: 20px;
+	
+
+}
+
+#titi2{
+	font-size: 20px;
+	
+}
+
+/*ici nous avons les blocs item et item images qui constituent notre partie hébergements avec photos*/
+
+.item{
+
+	width: 30%;
+	height: 35%;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 4px 4px 10px grey;
+	margin-top: 10px;
+
+
+
+}
+
+
 
 .item img{
 
@@ -284,17 +355,28 @@ nav a{
 
 }
 
-.item{
 
-	width: 30%;
-	height: 35%;
-	border-radius: 20px;
+/*la classe écriture nous permets de généraliser la taille de police pour les vignettes du site*/
+.ecriture{
+
+
+	margin-left: 10px;
+	font-size: 15px;
+	margin-top: 5px;
+}
+/*ici nous jouons sur les valeurs checked et clear pour afficher les étoiles dans les vignettes*/
+
+.clear{
+
+	color: #F2F2F2;
 	
-	background-color: white;
-	box-shadow: 4px 4px 10px grey;
+}
 
 
+.checked{
 
+	color:#0065FC ;
+	
 }
 
 #affichage{
@@ -302,17 +384,25 @@ nav a{
 	display: flex;
 	align-items: center;
 	margin-left: 20px;
+	font-weight: bold;
 
 	
 
 }
 
+#ola{
+
+	font-size: 16px;
 
 
+}
+
+
+/* ici commence la partie aside du site avec vignettes et photos qui sont contenus dans item aside*/
 
 aside{
 	display: flex;
-	height: 100%;
+	height: 700px;
 	width: 30%;
 	flex-direction: column;
 	align-items: center;
@@ -331,15 +421,13 @@ aside{
 	border-radius: 20px 0 0 20px;
 	margin-top: 5px;
 	margin-left: 5px;
+	object-fit: cover;
 	
 
 	
 }
 
-.stars_aside{
-
-	
-}
+/* ici contient le bloc avec étoiles */  
 
 #star{
 
@@ -353,32 +441,34 @@ aside{
 }
 
 
+.etoile{
+
+	color: black;
+}
+
+
+
+
+
+
 .item_aside{
 
 	border-radius: 20px;
 	
 	width: 80%;
-	height: 25%;
+	height: 170px;
 	background-color: white;
 	display: flex;
 	box-shadow: 4px 4px 10px grey;
-	margin-top: 23px;
+	margin-top: 30px;
 	
 	
 }
 
 
 
-#haut{
+/* ici commence la section bas dit "activités*/"
 
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 700px;
-	margin-top: 5px;
-	width: 100%;
-	
-}
 
 #bas{
 	
@@ -390,7 +480,7 @@ aside{
 	
 }
 
-
+/*afin de répondre aux cahier des charges nous utilisons flex box pour la disposition du contenu */
 
 #activites{
 
@@ -446,7 +536,7 @@ aside{
 
 
 }
-
+/*ici nous avons quatres petites div qui contiennent les images de notre partie activités afin de pouvoir personnaliser indépendamment le contenu (taille etc)*/
 
 #micro{
 
@@ -488,7 +578,7 @@ aside{
 	height: 230px;
 	
 }
-
+/* ici sont réuni les images afin de pouvoir les personnaliser*/
 
 .images_grandes{
 
@@ -545,10 +635,12 @@ aside{
 
 
 }
-
+/* enfin nous avons le footer toujours avec flex box afin de pouvoir faciliter le placement du contenu*/
 
 footer{
 	width: 100%;
+	height: 200px;
+	margin-top: 100px;
 
 	background-color: #F2F2F2;
 	
@@ -566,95 +658,24 @@ footer{
 
 
 
-a{
-
-	text-decoration: none;
-	color: black;
-	font-size: 15px;
-	
-}
 
 
 
-
-.circle-icon{
-
-	
-	font-size: 20px;
-	color: #0065FC ;
-	
-}
-
-
-
-
-.te{
-
-	width: 45px;
-	height: 100%;
-	border-radius: 50%;
-	background-color: #DEEBFF;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-}
-
-
-
-#ola{
-
-	font-size: 16px;
-
-
-}
-
-
-
-.checked{
-
-	color:#0065FC ;
-}
-
-.clear{
-
-	color: #F2F2F2;
-}
-
-.etoile{
-
-	color: black;
-}
-
-h3{
-	font-size: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-/* ici commence le media querie */
+/* ici commence le media querie  pour la partie smartphone*/
+/*Pour cette partie nous utilisons aussi flex box par contre avec la propriété column afin de pouvoir empiler les div les unes sur les autres et ainsi répondre a l exigence d un smartphone .
+Seul quelques ajustements concernant la taille de certains contenus ont été adaptés*/
 
 
 @media screen and (max-width: 768px)
 {
 
 
-#bloc_principal{
-	margin: 0px;
-	padding: 0px;
-	width: 95%;
-}
-#titi2{
-	width: 100%;
-}
+	#bloc_principal{
+		margin: 0px;
+		padding: 0px;
+		width: 95%;
+	}
+
 
 	nav{
 
@@ -687,29 +708,171 @@ h3{
 		
 	}
 
-nav li{
-	
-	margin: 0px;
-	width: 50%;
-	text-align: center;
-	
-}
+	nav li{
+
+		margin: 0px;
+		width: 50%;
+		text-align: center;
+
+	}
 
 
+	h2{
+		margin-left: 10px;
+		
+	}
+
+	
+	
+	h1{
+		text-align: center;
+		margin-left: 14px;
+		width: 100%;
+		
+	}
+
+	ul{
+		width: 100%;
+		border-bottom: 2px  solid #F2F2F2;
+
+	}
+
+
+
+
+
+	#speculos{
+		display: inline-block;
+		font-size: 30px;
+		margin-left: 20px;
+		font-weight: bold;
+		
+	}
+    /* ici le paragraphe kyosho n est pas affiché en version mobile*/
+
+	#kyosho{
+		display: none;
+	}
+
+	#megaman{
+		width: 80%;
+		margin-left: 20px;
+		
+	}
+
+
+	#recherche{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin-left: 14px;
+		
+	}
+
+	#can{
+		width: 50px;
+		height: 50px;
+		
+	}
+
+
+	#nautilus{
+
+		width: 350px;
+		height: 43px;
+		font-size: 20px;
+		border-right: none;
+		
+		
+	}
+
+
+
+	#bouton{
+		display: none;
+	}
+
+	#bootle{
+		width: 50px;
+		height: 50px;
+		background-color:#0065FC ;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+		margin-left: -10px;
+		
+	}
+/*ici nous affichons une loupe a la place du bouton rechercher*/
+
+	.loop{
+		display: inline-block !important;
+		color: white;
+		font-size: 16px;
+
+	}
+
+	#speciale{
+		
+		width: 100%;
+		margin-left: 20px;
+
+	}
 	#filters{
 		width:100%;
 		height: 100%;
 		display: flex;
 		flex-wrap: wrap;
-		
-
 
 	}
+	
+
+
+	.filtre{
+		width: 40%;
+		margin-right: 10px;
+		margin-left: 20px;
+	}
+
+	.filtrespeciale1{
+		width: 40%;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+
+	.filtrespeciale2{
+
+		margin-top: 10px;
+		width: 60%;
+		margin-left: 20px;
+	}
+
+	#bandeau{
+
+		margin-left: 20px;
+		
+	}
+
+
+
+	.title{
+		margin-left: 14px;
+		width: 99%;
+		
+	}
+
+	#titi2{
+		width: 100%;
+	}
+
+
+	/*ici nous utilisons flex box mais avec les propriétés column et column-reverse*/
 
 	#haut{
 		width: 100%;
 		height: auto;
 		flex-direction: column-reverse;
+		margin-top: 50px;
 		
 	}
 
@@ -719,29 +882,48 @@ nav li{
 		height: 100%;
 		flex-direction: column;
 		justify-content: space-between;
-		
-
-
 
 	}
+
+/* ici nous personnalisons la taille (hauteur et largeur afin de correspondre a la navigation sur smartphone) de tout le contenu (div et images)
+Cela comprend la partie haut et hébergements , la partie bas et activités et le aside*/
+
+	.item{
+		width: 88%;
+		height: 230px;
+		margin-top: 20px;
+		margin-left: 30px;
+
+	}
+
+
+	.item img{
+		height: 150px;
+		width: 98%;
+		object-fit: cover;
+	}
+
+	.checked{
+		margin-top: 0px;
+	}
+
+.clear{
+	margin-top: 0px;
+}
+
+	.ecriture{
+		margin-top: 10px;
+		margin-left: 15px;
+	}
+
 
 	#populaire{
 		
 		height: 630px;
 		width: 100%;
-		
 		border-radius: 0px;
 		margin-bottom: 40px;
 		margin: 0px;
-		
-		
-
-
-
-	}
-	.title{
-		margin-left: 14px;
-		width: 99%;
 		
 	}
 	.item_aside{
@@ -757,6 +939,23 @@ nav li{
 		height: 140px;
 		margin-left: 5px;
 		object-fit: cover;
+	}
+
+	#star{
+		justify-content: flex-start;
+		justify-content: space-between;
+		width: 100%;
+
+	}
+
+
+
+	.stars_aside{
+
+		margin-top: 50px;
+	}
+	.etoile{
+		margin-right: 10px;
 	}
 
 	
@@ -778,43 +977,28 @@ nav li{
 		
 	}
 
+	#activites img{
+
+		width: 100%;
+		height: 175px;
+		object-fit: cover;
+	}
+
 
 
 	#affichage{
 		margin-top: 20px;
 		width: 100%;
 		margin-left: 14px;
-		
-		
-	}
-
-
-
-	
-
-
-
-	.item{
-		width: 88%;
-		height: 230px;
-		margin-top: 20px;
-		margin-left: 30px;
-		
-		
 
 	}
-	.item img{
-		height: 150px;
-	}
+
 
 	#one{
 		width: 88%;
 		height: 230px;
 		margin-top: 20px;
 		
-		
-		
-
 	}
 
 
@@ -822,19 +1006,13 @@ nav li{
 		width: 88%;
 		height: 480px;
 		margin-top: 20px;
-		
-		
-		
-
 
 	}
 
 	#three{
 		width: 88%;
 		height: 230px;
-		margin-top: 20px;
-		
-		
+		margin-top: 20px;	
 
 	}
 
@@ -842,23 +1020,10 @@ nav li{
 		width: 88%;
 		height: 480px;
 		margin-top: 20px;
-		
+
+	}
+
 	
-		
-
-	}
-
-	#hebergements img{
-		width: 98%;
-		object-fit: cover;
-	}
-
-	#activites img{
-
-		width: 100%;
-		height: 175px;
-		object-fit: cover;
-	}
 	#mini{
 
 		width: 100%;
@@ -888,188 +1053,13 @@ nav li{
 		
 	}
 
-	
+	/*ici nous avons personnaliser le footer (en jouant sur la largeur et hauteur)et en utilisant toujours flex box et la propriété column*/
 
-
-	#speciale{
-		
-		width: 100%;
-		margin-left: 20px;
-
-	}
-	.filters{
-		width: 100%;
-		height: 150px;
-		margin-bottom: 20px;
-		
-		
-
-	}
-
-
-	.filtre{
-		width: 40%;
-		margin-left: 10px;
-		margin-right: 10px;
-		margin-left: 20px;
-	}
-
-	.filtrespeciale1{
-		width: 40%;
-		margin-top: 10px;
-		margin-left: 20px;
-	}
-
-	.filtrespeciale2{
-
-		margin-top: 10px;
-		width: 60%;
-		margin-left: 20px;
-	}
-
-
-	#bouton{
-		display: none;
-	}
-
-
-	.loop{
-		display: inline-block !important;
-	}
-	#star{
-		width: 100%;
-		
-		
-	}
-
-
-	.stars_aside{
-
-		margin-top: 50px;
-	}
-
-
-	h2{
-
-		margin-left: 10px;
-		
-	}
-
-	
-	
-	h1{
-
-		
-		text-align: center;
-		margin-left: 14px;
-		width: 100%;
-		
-
-	}
-
-	#megaman{
-		width: 80%;
-		margin-left: 20px;
-		
-	}
-
-
-
-	#recherche{
-		display: flex;
-		justify-content: center;
-		width: 100%;
-		margin-left: 14px;
-		
-	}
-
-
-	#nautilus{
-
-		width: 350px;
-		height: 43px;
-		font-size: 20px;
-		border-right: none;
-		
-		
-	}
-
-	.loop{
-		color: white;
-		font-size: 16px;
-
-
-
-
-	}
-	#can{
-		width: 50px;
-		height: 50px;
-		
-	}
-
-	#bootle{
-		width: 50px;
-		height: 50px;
-		background-color:#0065FC ;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		border-radius: 10px;
-		margin-left: -10px;
-		
-	}
-
-
-
-	#speculos{
-		display: inline-block;
-		font-size: 30px;
-		margin-left: 20px;
-		font-weight: bold;
-		
-	}
-
-
-
-	#kyosho{
-		display: none;
-	}
-
-	#bandeau{
-
-		margin-left: 20px;
-		
-	}
-
-	
-	#haut{
-		margin-top: 50px;
-
-	}
-
-	ul{
-		width: 100%;
-		border-bottom: 2px  solid #F2F2F2;
-
-
-	}
-	
-
-	
-
-	#star{
-		justify-content: flex-start;
-		justify-content: space-between;
-
-		width: 90%;
-
-	}
 	footer{
 		width: 462px;
-		border: 2px solid red;
 		margin-left: 12px;
 		margin-top: 50px;
+		height: 100%;
 	}
 
 
@@ -1083,11 +1073,7 @@ nav li{
 		margin-left: 20px;
 
 	}
-	.ecriture{
-		margin-top: 10px;
-		margin-left: 15px;
-	}
-
+	
 	
 
 	.pied_de_page h2{
@@ -1102,7 +1088,6 @@ nav li{
 
 
 }
-
 
 
 
