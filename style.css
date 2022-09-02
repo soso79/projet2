@@ -6,6 +6,7 @@ body{
 	
 }
 
+
 .loop{
 
 	display: none !important;
@@ -28,6 +29,7 @@ body{
 
 	margin-left: 10px;
 	font-size: 15px;
+	margin-top: 5px;
 }
 
 p{
@@ -148,6 +150,7 @@ nav a{
 	width: 95%;
 	height: auto;
 	margin: auto;
+	padding: auto;
 
 	
 }
@@ -258,21 +261,24 @@ nav a{
 .title{
 
 	width: 100%;
-	height: 50px;
+	height: 10%;
 	margin-top: 10px;
 	margin-left: 10px;
+	border: 2px solid red;
 	
 
 }
 
-#hebergements img{
+.item img{
 
-	width: 290px;
-	height: 150px;
+	width: 97%;
+	height: 60%;
 	border-radius: 20px 20px 0px 0px ;
 	margin-left: 5px;
+	margin-right: 5px;
 	margin-top: 3px;
 	background-color:  #F2F2F2;
+	object-fit: cover;
 
 
 
@@ -280,8 +286,8 @@ nav a{
 
 .item{
 
-	width: 300px;
-	height: 250px;
+	width: 30%;
+	height: 35%;
 	border-radius: 20px;
 	
 	background-color: white;
@@ -318,10 +324,10 @@ aside{
 }
 
 
-aside img{
+.item_aside img{
 
-	height: 160px;
-	width: 160px;
+	height: 94%;
+	width: 30%;
 	border-radius: 20px 0 0 20px;
 	margin-top: 5px;
 	margin-left: 5px;
@@ -332,7 +338,7 @@ aside img{
 
 .stars_aside{
 
-	margin-top: 50px;
+	
 }
 
 #star{
@@ -341,8 +347,9 @@ aside img{
 	justify-content: space-between;
 	align-items: baseline;
 	border-radius: 20px;
-	width: 450px;
-	height: 50px;
+	width: 80%;
+	height: 10%;
+	margin-top: 10px;
 }
 
 
@@ -350,12 +357,12 @@ aside img{
 
 	border-radius: 20px;
 	
-	width: 400px;
-	height: 170px;
+	width: 80%;
+	height: 25%;
 	background-color: white;
 	display: flex;
 	box-shadow: 4px 4px 10px grey;
-	margin-top: 35px;
+	margin-top: 23px;
 	
 	
 }
@@ -370,12 +377,14 @@ aside img{
 	height: 700px;
 	margin-top: 5px;
 	width: 100%;
+	
 }
 
 #bas{
 	
 
 	width: 100%;
+	height: 600px;
 	margin-top: 50px;
 
 	
@@ -383,12 +392,13 @@ aside img{
 
 
 
-#general{
+#activites{
 
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 100%;
-	height: 450px;
+	height: 500px;
 }
 
 
@@ -454,6 +464,7 @@ aside img{
 	
 	border-radius: 20px 20px 20px 20px;
 	box-shadow:4px 4px 10px grey ;
+	height: 180px;
 	
 }
 
@@ -465,7 +476,7 @@ aside img{
 
 	border-radius: 20px 20px 20px 20px;
 	box-shadow:4px 4px 10px grey ;
-	
+	height: 220px;
 }
 
 
@@ -474,6 +485,7 @@ aside img{
 
 	border-radius: 20px 20px 20px 20px;
 	box-shadow:4px 4px 10px grey ;
+	height: 230px;
 	
 }
 
@@ -481,7 +493,7 @@ aside img{
 .images_grandes{
 
 
-	height: 380px;
+	height: 90%;
 	width: 100%;
 	border-radius: 20px 20px 20px 20px;
 
@@ -490,7 +502,7 @@ aside img{
 
 #images_one{
 
-	height: 180px;
+	height: 72%;
 	width: 100%;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
@@ -502,7 +514,7 @@ aside img{
 
 #images_two{
 
-	height: 90px;
+	height: 73%;
 	width: 100%;
 	object-fit: cover;
 	border-radius: 20px 20px 0 0;
@@ -515,7 +527,7 @@ aside img{
 
 #images_three{
 
-	height: 160px;
+	height: 170px;
 	width: 100%;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
@@ -526,7 +538,7 @@ aside img{
 
 #images_four{
 
-	height: 120px;
+	height: 81%;
 	width: 100%;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
@@ -635,16 +647,20 @@ h3{
 {
 
 
-	#bloc_principal{
-		width: 100%;
-	}
-
-
+#bloc_principal{
+	margin: 0px;
+	padding: 0px;
+	width: 95%;
+}
+#titi2{
+	width: 100%;
+}
 
 	nav{
 
 		width: 100%;
 		flex-direction: column;
+		
 		
 
 	}
@@ -657,16 +673,17 @@ h3{
 		padding-left: 0px;
 		justify-content: center;
 		
-
-		
-		
-		
 	}
+
+
+
 
 	nav li:hover{
 		
 		
+		
 		border-bottom: 2px solid #0065FC;
+		
 		
 	}
 
@@ -675,69 +692,79 @@ nav li{
 	margin: 0px;
 	width: 50%;
 	text-align: center;
+	
 }
 
 
-
-
-
-
-
-
-	#recherche{
-		width: 100%;
-		border: 2px solid red;
-	}
 	#filters{
 		width:100%;
 		height: 100%;
 		display: flex;
 		flex-wrap: wrap;
+		
 
 
 	}
+
 	#haut{
 		width: 100%;
 		height: auto;
 		flex-direction: column-reverse;
+		
 	}
+
 	#hebergements{
 		width: 100%;
 		background-color: white;
-		height: auto;
+		height: 100%;
 		flex-direction: column;
 		justify-content: space-between;
+		
 
 
 
 	}
 
-	aside{
+	#populaire{
+		
+		height: 630px;
 		width: 100%;
-		height: 600px;
 		
 		border-radius: 0px;
 		margin-bottom: 40px;
+		margin: 0px;
+		
 		
 
 
 
+	}
+	.title{
+		margin-left: 14px;
+		width: 99%;
+		
 	}
 	.item_aside{
 
 		height: 150px;
 		width: 90%;
 		margin-top: 20px;
+		
 	}
 
 	.item_aside img{
 		width: 30%;
 		height: 140px;
 		margin-left: 5px;
+		object-fit: cover;
 	}
 
-	#foot{
-		flex-direction: column;
+	
+	#bas{
+		width: 100%;
+		height: auto;
+		margin-top: 0px;
+		
 	}
 
 	#activites{
@@ -747,6 +774,8 @@ nav li{
 		align-items: center;
 		width: 100%;
 		height: auto;
+		
+		
 	}
 
 
@@ -754,107 +783,126 @@ nav li{
 	#affichage{
 		margin-top: 20px;
 		width: 100%;
+		margin-left: 14px;
+		
+		
 	}
 
 
 
-	#general{
-
-		height: 100%;
-		flex-direction: column;
-		width: 100%;
-
-	}
+	
 
 
 
 	.item{
 		width: 88%;
-		height: auto;
+		height: 230px;
 		margin-top: 20px;
-		margin-left: 20px;
+		margin-left: 30px;
+		
+		
 
+	}
+	.item img{
+		height: 150px;
 	}
 
 	#one{
 		width: 88%;
+		height: 230px;
 		margin-top: 20px;
-		margin-left: 20px;
+		
+		
+		
 
 	}
 
 
 	#two{
 		width: 88%;
+		height: 480px;
 		margin-top: 20px;
-		margin-left: 20px;
+		
+		
+		
 
 
 	}
 
 	#three{
 		width: 88%;
+		height: 230px;
 		margin-top: 20px;
-		margin-left: 20px;
+		
+		
 
 	}
 
 	#four{
 		width: 88%;
+		height: 480px;
 		margin-top: 20px;
-		margin-left: 20px;
+		
+	
+		
 
 	}
 
 	#hebergements img{
-		width: 98%
+		width: 98%;
+		object-fit: cover;
 	}
 
 	#activites img{
 
 		width: 100%;
+		height: 175px;
+		object-fit: cover;
+	}
+	#mini{
+
+		width: 100%;
+		height: 250px;
+		
 	}
 	#mini2{
+		width: 100%;
+		height: 250px;
 		margin-top: 20px;
+		
+	}
+	#micro{
+		width: 100%;
+		height: 250px;
+
 	}
 
 	#micro2{
 		margin-top: 20px;
+		width: 100%;
+		height: 250px;
 	}
 
 	.images_grandes{
-		height: 200px;
+		border-radius: 20px 20px 0px 0px;
+		
 	}
 
-	#images_one{
-		height: 200px;
-	}
-
-
-	#images_two{
-		height: 200px;
-	}
-
-
-	#images_three{
-		height: 200px;
-	}
-
-
-	#images_four{
-		height: 200px;
-	}
+	
 
 
 	#speciale{
 		
 		width: 100%;
+		margin-left: 20px;
 
 	}
 	.filters{
 		width: 100%;
 		height: 150px;
 		margin-bottom: 20px;
+		
+		
 
 	}
 
@@ -863,19 +911,20 @@ nav li{
 		width: 40%;
 		margin-left: 10px;
 		margin-right: 10px;
+		margin-left: 20px;
 	}
 
 	.filtrespeciale1{
 		width: 40%;
 		margin-top: 10px;
-		margin-left: 10px;
+		margin-left: 20px;
 	}
 
 	.filtrespeciale2{
 
 		margin-top: 10px;
 		width: 60%;
-		margin-left: 10px;
+		margin-left: 20px;
 	}
 
 
@@ -886,6 +935,11 @@ nav li{
 
 	.loop{
 		display: inline-block !important;
+	}
+	#star{
+		width: 100%;
+		
+		
 	}
 
 
@@ -898,25 +952,25 @@ nav li{
 	h2{
 
 		margin-left: 10px;
+		
 	}
 
-	#bas{
-
-		margin-top: 0px;
-		width: 100%;
-	}
+	
+	
 	h1{
 
 		
 		text-align: center;
-		margin-left: 5%;
-		width: 80%;
+		margin-left: 14px;
+		width: 100%;
+		
 
 	}
 
 	#megaman{
 		width: 80%;
-		margin-left: 5%;
+		margin-left: 20px;
+		
 	}
 
 
@@ -925,15 +979,18 @@ nav li{
 		display: flex;
 		justify-content: center;
 		width: 100%;
+		margin-left: 14px;
 		
 	}
 
 
 	#nautilus{
 
-		width: 250px;
+		width: 350px;
+		height: 43px;
 		font-size: 20px;
 		border-right: none;
+		
 		
 	}
 
@@ -943,17 +1000,24 @@ nav li{
 
 
 
+
+	}
+	#can{
+		width: 50px;
+		height: 50px;
+		
 	}
 
 	#bootle{
-		width: 40px;
-		height: 40px;
+		width: 50px;
+		height: 50px;
 		background-color:#0065FC ;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		border-radius: 10px;
 		margin-left: -10px;
+		
 	}
 
 
@@ -961,7 +1025,9 @@ nav li{
 	#speculos{
 		display: inline-block;
 		font-size: 30px;
-		margin-left: 50px;
+		margin-left: 20px;
+		font-weight: bold;
+		
 	}
 
 
@@ -972,15 +1038,14 @@ nav li{
 
 	#bandeau{
 
-		margin-left: 10px;
-	}
-
-	#recherche{
+		margin-left: 20px;
 		
-
 	}
+
+	
 	#haut{
 		margin-top: 50px;
+
 	}
 
 	ul{
@@ -989,25 +1054,41 @@ nav li{
 
 
 	}
+	
 
 	
 
 	#star{
-		justify-content: space-around;
-		width: 100%;
+		justify-content: flex-start;
+		justify-content: space-between;
+
+		width: 90%;
 
 	}
 	footer{
+		width: 462px;
+		border: 2px solid red;
+		margin-left: 12px;
+		margin-top: 50px;
+	}
+
+
+	#foot{
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		margin-top: 50px;
-		width: 100%;
+		width: auto;
+		height: auto;
+		margin-left: 20px;
+
+	}
+	.ecriture{
+		margin-top: 10px;
+		margin-left: 15px;
 	}
 
-	#populaire{
-		width: 100%;
-	}
+	
 
 	.pied_de_page h2{
 
