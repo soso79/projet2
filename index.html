@@ -18,157 +18,181 @@
    <main id="bloc_principal">
 
     <header>
+        <!-- ici commence la partie header du site qui comprend le menu navigation et le logo -->
 
 
-       <nav id="first">
+        <nav id="first">
 
 
-        <img src="images/logo/Booki.png" alt="logo booki" id="logo_booki" /> 
+            <img src="images/logo/Booki.png" alt="logo booki" id="logo_booki" /> 
 
-        <ul>
-
-
-            <li><a href="#hebergements">Hébergements</a></li>
-
-            <li><a href="#populaire">Activités</a></li>
-
-        </ul>
-
-    </nav>
+            <ul>
 
 
-    <h1 id="kyosho">Trouver votre hebergement pour des vacances de rêve</h1>
-    <p id="speculos">Trouver votre hebergement</br>pour des vacances de reve</p>
-    <p id="megaman">En plein centre ville ou en pleine nature</p>
+                <li><a href="#hebergements">Hébergements</a></li>
+
+                <li><a href="#populaire">Activités</a></li>
+
+            </ul>
+
+        </nav>
 
 
-    <div id="recherche">
-        <div id="can">
+        <h1 id="kyosho">Trouver votre hebergement pour des vacances de rêve</h1>
+        <p id="speculos">Trouver votre hebergement</br>pour des vacances de reve</p>
+        <p id="megaman">En plein centre ville ou en pleine nature</p>
+
+        <!-- ici commence la barre de recherche du site -->
+        <div id="recherche">
+            <div id="can">
 
 
 
-            <i class="fa-solid fa-location-dot soprano"></i>
+                <i class="fa-solid fa-location-dot soprano"></i>
+
+            </div>
+
+            
+
+            <input type="text" id="nautilus" name="France" value=" Marseille,France" />
+
+
+            
+
+            <input type="submit" id="bouton"  value="Rechercher"/>
+
+            <div id="bootle">
+
+                <i class="fa-solid fa-search loop "></i>
+
+            </div>
 
         </div>
 
-        
+        <!-- ici nous avons la partie filtre du site -->
 
-        <input type="text" id="nautilus" name="France" value=" Marseille,France" />
+        <div id="filters">
 
 
-        
 
-        <input type="submit" id="bouton"  value="Rechercher"/>
+            <p id="speciale">Filtres</p>
 
-        <div id="bootle">
 
-            <i class="fa-solid fa-search loop "></i>
+
+
+            <div class="filtre">
+
+                <div class="te">
+
+
+
+                    <i class="fa-solid fa-money-bill-wave circle-icon"></i>
+                </div>
+
+
+
+                <p>Économique</p>
+
+
+            </div>
+
+            <div class="filtre">
+
+                <div class="te">
+
+                    <i class="fa-solid fa-child-reaching circle-icon"></i>
+                </div>
+
+
+                <p>Familial</p>
+
+            </div>
+
+            <div class="filtrespeciale1">
+
+
+                <div class="te">
+                    <i class="fa-solid fa-heart circle-icon"></i>
+                </div>
+
+                <p>Romantique</p>
+
+            </div>
+
+            <div class="filtrespeciale2">
+
+                <div class="te">
+                    <i class="fa-solid fa-dog circle-icon"></i>
+
+                </div>
+                <p>Animaux autorisés</p>
+
+            </div>
 
         </div>
 
-    </div>
+        <!-- ici se trouve le petit bandeau avec le logo information -->
+        <div id="bandeau">
+            <div id="round">
+                <i class="fa-solid fa-info information"></i>
+            </div>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
 
 
 
-    <div id="filters">
+    </header>
 
+    <!-- ici commence la partie haute du site avec la partie hebergement du site -->
+    <section id="haut">
 
+        <div id="hebergements">
 
-        <p id="speciale">Filtres</p>
+            <div class="title">
 
+                <h2 id="titi">Hebergements a Marseille</h2>
 
-
-
-        <div class="filtre">
-
-            <div class="te">
-
-
-
-                <i class="fa-solid fa-money-bill-wave circle-icon"></i>
             </div>
 
 
+            <!-- item correspond a chaque vignettes contenant les photos -->
 
-            <p>Économique</p>
+            <article class="item">
 
+                <img src="images/auberge_la_cannebiere.jpg" alt="auberge cannebiere"/>
 
-        </div>
-
-        <div class="filtre">
-
-            <div class="te">
-
-                <i class="fa-solid fa-child-reaching circle-icon"></i>
-            </div>
+                <p class="ecriture"><strong>Auberge la Cannebiére</strong></br>
 
 
-            <p>Familial</p>
+                Nuit a partir de 25€</br>
 
-        </div>
-
-        <div class="filtrespeciale1">
-
-
-            <div class="te">
-                <i class="fa-solid fa-heart circle-icon"></i>
-            </div>
-
-            <p>Romantique</p>
-
-        </div>
-
-        <div class="filtrespeciale2">
-
-            <div class="te">
-                <i class="fa-solid fa-dog circle-icon"></i>
-
-            </div>
-            <p>Animaux autorisés</p>
-
-        </div>
-
-    </div>
-
-    <div id="bandeau">
-        <div id="round">
-            <i class="fa-solid fa-info information"></i>
-        </div>
-        <p>Plus de 500 logements sont disponibles dans cette ville</p>
-    </div>
+                <span class="fa fa-star checked "></span>
+                <span class="fa fa-star checked "></span>
+                <span class="fa fa-star checked "></span>
+                <span class="fa fa-star checked "></span>
+                <span class="fa fa-star clear "></span>
 
 
+            </p>
 
-</header>
-
-
-<section id="haut">
-
-    <div id="hebergements">
-
-        <div class="title">
-
-            <h2 id="titi">Hebergements a Marseille</h2>
-
-        </div>
-
+        </article>
 
 
 
         <article class="item">
 
-            <img src="images/auberge_la_cannebiere.jpg" alt="auberge cannebiere"/>
+            <img src="images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="logo booki"/>
 
-            <p class="ecriture"><strong>Auberge la Cannebiére</strong></br>
+            <p class="ecriture"><strong>Hôtel du Port</strong></br>
 
 
-            Nuit a partir de 25€</br>
+            Nuit a partir de 52€</br>
 
-            <span class="fa fa-star checked "></span>
-            <span class="fa fa-star checked "></span>
-            <span class="fa fa-star checked "></span>
-            <span class="fa fa-star checked "></span>
-            <span class="fa fa-star clear "></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
 
 
         </p>
@@ -177,48 +201,26 @@
 
 
 
+
+
     <article class="item">
 
-        <img src="images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="logo booki"/>
+        <img src="images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo"/>
 
-        <p class="ecriture"><strong>Hôtel du Port</strong></br>
+        <p class="ecriture"><strong>Hôtel les mouettes</strong></br>
 
 
-        Nuit a partir de 52€</br>
+
+        Nuit a partir de 76€</br>
 
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star clear"></span>
 
 
     </p>
-
-</article>
-
-
-
-
-
-<article class="item">
-
-    <img src="images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo"/>
-
-    <p class="ecriture"><strong>Hôtel les mouettes</strong></br>
-
-
-
-    Nuit a partir de 76€</br>
-
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star clear"></span>
-
-
-</p>
 
 </article>
 
@@ -293,7 +295,7 @@
 </article>
 
 
-
+<!-- ici nous avons le petit lien qui permet d afficher plus d hebergements -->
 <div id="affichage">
 
    <a id="ola" href="#">Afficher plus?</a>
@@ -304,7 +306,7 @@
 
 </div>
 
-
+<!-- ici commence le aside c est la partie a droite d hebergements -->
 <aside id="populaire">
 
     <div id="star">
@@ -314,7 +316,7 @@
 
 
 
-
+    <!-- ici chaque article contient les vignettes pour le aside -->
     <article class="item_aside">
 
         <img src="images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo"/>
@@ -398,6 +400,7 @@
 
 </section>
 
+<!-- ici commence la section bas qui contient la partie activités du site -->
 <section id="bas">
 
     <div id="activites">
@@ -409,7 +412,7 @@
             </div>
 
 
-            
+            <!-- ici nous avons quatre article qui contiennnet chacun une ou plusieurs photos-->
 
             <article id="one">
 
@@ -488,7 +491,7 @@
 </section>
 
 </main>
-
+<!-- et enfin la derniére partie du site qui contient le footer et les differentes informations sous forme de liens -->
 <footer>
 
     <div id="foot">

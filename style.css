@@ -302,7 +302,7 @@ h3{
 .title{
 
 	width: 100%;
-	height: 10%;
+	height: 50px;
 	margin-top: 10px;
 	margin-left: 10px;
 	
@@ -344,13 +344,14 @@ h3{
 .item img{
 
 	width: 97%;
-	height: 60%;
+	height: 65%;
 	border-radius: 20px 20px 0px 0px ;
 	margin-left: 5px;
 	margin-right: 5px;
-	margin-top: 3px;
+	margin-top: 5px;
 	background-color:  #F2F2F2;
 	object-fit: cover;
+	text-align: center;
 
 
 
@@ -370,6 +371,7 @@ h3{
 .clear{
 
 	color: #F2F2F2;
+	padding-top: 5px;
 	
 }
 
@@ -377,6 +379,7 @@ h3{
 .checked{
 
 	color:#0065FC ;
+	padding-top: 5px;
 	
 }
 
@@ -415,7 +418,7 @@ aside{
 }
 
 
-.item_aside img{
+aside img{
 
 	height: 94%;
 	width: 30%;
@@ -439,6 +442,11 @@ aside{
 	width: 80%;
 	height: 10%;
 	margin-top: 10px;
+	border: 2px solid red;
+}
+
+.stars_aside{
+	padding-top: 40%;
 }
 
 
@@ -457,11 +465,11 @@ aside{
 	border-radius: 20px;
 	
 	width: 80%;
-	height: 170px;
+	height: 180px;
 	background-color: white;
 	display: flex;
 	box-shadow: 4px 4px 10px grey;
-	margin-top: 30px;
+	margin-top: 14px;
 	
 	
 }
@@ -662,7 +670,7 @@ footer{
 
 
 
-/* ici commence le media querie  pour la partie smartphone*/
+/* ici commence le media querie  pour la partie smartphone*/ 
 /*Pour cette partie nous utilisons aussi flex box par contre avec la propriété column afin de pouvoir empiler les div les unes sur les autres et ainsi répondre a l exigence d un smartphone .
 Seul quelques ajustements concernant la taille de certains contenus ont été adaptés*/
 
@@ -671,10 +679,11 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 {
 
 
+
 	#bloc_principal{
 		margin: 0px;
 		padding: 0px;
-		width: 95%;
+		border: 2px solid blue;
 	}
 
 
@@ -682,6 +691,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 
 		width: 100%;
 		flex-direction: column;
+		border: 2px solid red;
 		
 		
 
@@ -694,6 +704,8 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 		width: 100%;
 		padding-left: 0px;
 		justify-content: center;
+		border: 2px solid red;
+		
 		
 	}
 
@@ -719,7 +731,9 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 
 
 	h2{
-		margin-left: 10px;
+		
+		border: 2px solid red;
+		
 		
 	}
 
@@ -729,12 +743,15 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 		text-align: center;
 		margin-left: 14px;
 		width: 100%;
+		border: 2px solid red;
 		
 	}
 
 	ul{
 		width: 100%;
 		border-bottom: 2px  solid #F2F2F2;
+		border: 2px solid red;
+		
 
 	}
 
@@ -747,9 +764,11 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 		font-size: 30px;
 		margin-left: 20px;
 		font-weight: bold;
+		border: 2px solid red;
+		
 		
 	}
-    /* ici le paragraphe kyosho n est pas affiché en version mobile*/
+	/* ici le paragraphe kyosho n est pas affiché en version mobile*/
 
 	#kyosho{
 		display: none;
@@ -758,6 +777,8 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 	#megaman{
 		width: 80%;
 		margin-left: 20px;
+		border: 2px solid red;
+		
 		
 	}
 
@@ -765,8 +786,10 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 	#recherche{
 		display: flex;
 		justify-content: center;
-		width: 100%;
+		width: 95%;
 		margin-left: 14px;
+		border: 2px solid blueviolet;
+		
 		
 	}
 
@@ -783,6 +806,8 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 		height: 43px;
 		font-size: 20px;
 		border-right: none;
+		border: 2px solid green;
+		
 		
 		
 	}
@@ -802,294 +827,340 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 		align-items: center;
 		border-radius: 10px;
 		margin-left: -10px;
+		border: 2px solid red;
+		
 		
 	}
 /*ici nous affichons une loupe a la place du bouton rechercher*/
 
-	.loop{
-		display: inline-block !important;
-		color: white;
-		font-size: 16px;
+.loop{
+	display: inline-block !important;
+	color: white;
+	font-size: 16px;
 
-	}
+}
 
-	#speciale{
-		
-		width: 100%;
-		margin-left: 20px;
+#speciale{
 
-	}
-	#filters{
-		width:100%;
-		height: 100%;
-		display: flex;
-		flex-wrap: wrap;
-
-	}
-	
+	width: 100%;
+	margin-left: 20px;
+	border: 2px solid red;
 
 
-	.filtre{
-		width: 40%;
-		margin-right: 10px;
-		margin-left: 20px;
-	}
+}
+#filters{
+	width:100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid red;
 
-	.filtrespeciale1{
-		width: 40%;
-		margin-top: 10px;
-		margin-left: 20px;
-	}
 
-	.filtrespeciale2{
-
-		margin-top: 10px;
-		width: 60%;
-		margin-left: 20px;
-	}
-
-	#bandeau{
-
-		margin-left: 20px;
-		
-	}
+}
 
 
 
-	.title{
-		margin-left: 14px;
-		width: 99%;
-		
-	}
+.filtre{
+	width: 40%;
+	margin-right: 10px;
+	margin-left: 20px;
+	border: 2px solid red;
 
-	#titi2{
-		width: 100%;
-	}
+}
+
+.filtrespeciale1{
+	width: 40%;
+	margin-top: 10px;
+	margin-left: 20px;
+	border: 2px solid red;
+
+}
+
+.filtrespeciale2{
+
+	margin-top: 10px;
+	width: 60%;
+	margin-left: 20px;
+	border: 2px solid red;
+
+}
+
+#bandeau{
+
+	margin-left: 20px;
+	width: 80%;
+	border: 2px solid red;
 
 
-	/*ici nous utilisons flex box mais avec les propriétés column et column-reverse*/
+}
 
-	#haut{
-		width: 100%;
-		height: auto;
-		flex-direction: column-reverse;
-		margin-top: 50px;
-		
-	}
 
-	#hebergements{
-		width: 100%;
-		background-color: white;
-		height: 100%;
-		flex-direction: column;
-		justify-content: space-between;
 
-	}
+.title{
+	margin-left: 14px;
+	width: 90%;
+	border: 2px solid red;
+
+}
+#titi{
+	width: 90%;
+
+}
+
+#titi2{
+	width: 90%;
+	color: yellowgreen;
+
+}
+
+
+/*ici nous utilisons flex box mais avec les propriétés column et column-reverse*/
+
+#haut{
+	width: 100%;
+	height: auto;
+	flex-direction: column-reverse;
+	margin-top: 50px;
+	border: 2px solid red;
+
+
+}
+
+#hebergements{
+	width: 100%;
+	background-color: white;
+	height: 100%;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 2px solid red;
+
+
+}
 
 /* ici nous personnalisons la taille (hauteur et largeur afin de correspondre a la navigation sur smartphone) de tout le contenu (div et images)
 Cela comprend la partie haut et hébergements , la partie bas et activités et le aside*/
 
-	.item{
-		width: 88%;
-		height: 230px;
-		margin-top: 20px;
-		margin-left: 30px;
+.item{
+	width: 88%;
+	height: 230px;
+	margin-top: 20px;
+	margin-left: 30px;
+	border: 2px solid red;
 
-	}
+
+}
 
 
-	.item img{
-		height: 150px;
-		width: 98%;
-		object-fit: cover;
-	}
+.item img{
+	height: 150px;
+	width: 96%;
+	object-fit: cover;
+	border: 2px solid red;
 
-	.checked{
-		margin-top: 0px;
-	}
+}
+
+.checked{
+	margin-top: 0px;
+}
 
 .clear{
 	margin-top: 0px;
 }
 
-	.ecriture{
-		margin-top: 10px;
-		margin-left: 15px;
-	}
+.ecriture{
+
+	margin-left: 15px;
+	border: 2px solid red;
+
+}
 
 
-	#populaire{
-		
-		height: 630px;
-		width: 100%;
-		border-radius: 0px;
-		margin-bottom: 40px;
-		margin: 0px;
-		
-	}
-	.item_aside{
+#populaire{
 
-		height: 150px;
-		width: 90%;
-		margin-top: 20px;
-		
-	}
+	height: 630px;
+	width: 462px;
+	border-radius: 0px;
+	margin-bottom: 40px;
+	margin: 0px;
 
-	.item_aside img{
-		width: 30%;
-		height: 140px;
-		margin-left: 5px;
-		object-fit: cover;
-	}
+}
+.item_aside{
 
-	#star{
-		justify-content: flex-start;
-		justify-content: space-between;
-		width: 100%;
-
-	}
-
-
-
-	.stars_aside{
-
-		margin-top: 50px;
-	}
-	.etoile{
-		margin-right: 10px;
-	}
-
-	
-	#bas{
-		width: 100%;
-		height: auto;
-		margin-top: 0px;
-		
-	}
-
-	#activites{
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: center;
-		width: 100%;
-		height: auto;
-		
-		
-	}
-
-	#activites img{
-
-		width: 100%;
-		height: 175px;
-		object-fit: cover;
-	}
-
-
-
-	#affichage{
-		margin-top: 20px;
-		width: 100%;
-		margin-left: 14px;
-
-	}
-
-
-	#one{
-		width: 88%;
-		height: 230px;
-		margin-top: 20px;
-		
-	}
-
-
-	#two{
-		width: 88%;
-		height: 480px;
-		margin-top: 20px;
-
-	}
-
-	#three{
-		width: 88%;
-		height: 230px;
-		margin-top: 20px;	
-
-	}
-
-	#four{
-		width: 88%;
-		height: 480px;
-		margin-top: 20px;
-
-	}
-
-	
-	#mini{
-
-		width: 100%;
-		height: 250px;
-		
-	}
-	#mini2{
-		width: 100%;
-		height: 250px;
-		margin-top: 20px;
-		
-	}
-	#micro{
-		width: 100%;
-		height: 250px;
-
-	}
-
-	#micro2{
-		margin-top: 20px;
-		width: 100%;
-		height: 250px;
-	}
-
-	.images_grandes{
-		border-radius: 20px 20px 0px 0px;
-		
-	}
-
-	/*ici nous avons personnaliser le footer (en jouant sur la largeur et hauteur)et en utilisant toujours flex box et la propriété column*/
-
-	footer{
-		width: 462px;
-		margin-left: 12px;
-		margin-top: 50px;
-		height: 100%;
-	}
-
-
-	#foot{
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		margin-top: 50px;
-		width: auto;
-		height: auto;
-		margin-left: 20px;
-
-	}
-	
-	
-
-	.pied_de_page h2{
-
-		margin: 0px;
-	}
-	.pied_de_page{
-		margin-bottom: 20px;
-		margin-top: 20px;
-
-	}
+	height: 150px;
+	width: 90%;
+	margin-top: 20px;
+	border: 2px solid red;
 
 
 }
 
+.item_aside img{
+	width: 30%;
+	height: 140px;
+	margin-left: 5px;
+	object-fit: cover;
+	border: 2px solid red;
+
+}
+
+#star{
+	justify-content: flex-start;
+	justify-content: space-between;
+	width: 100%;
+	border: 2px solid red;
+
+
+}
+
+
+
+.stars_aside{
+
+	padding-top: 50px;
+}
+.etoile{
+	margin-right: 10px;
+}
+
+
+#bas{
+	width: 100%;
+	height: auto;
+	margin-top: 0px;
+	border: 2px solid red;
+
+
+}
+
+#activites{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	border: 2px solid red;
+
+
+}
+
+#activites img{
+
+	width: 100%;
+	height: 175px;
+	object-fit: cover;
+}
+
+
+
+#affichage{
+	margin-top: 20px;
+	width: 90%;
+	margin-left: 30px;
+	border: 2px solid red;
+
+
+}
+
+
+#one{
+	width: 88%;
+	height: 230px;
+	margin-top: 20px;
+
+}
+
+
+#two{
+	width: 88%;
+	height: 480px;
+	margin-top: 20px;
+
+}
+
+#three{
+	width: 88%;
+	height: 230px;
+	margin-top: 20px;	
+
+}
+
+#four{
+	width: 88%;
+	height: 480px;
+	margin-top: 20px;
+
+}
+
+
+#mini{
+
+	width: 100%;
+	height: 250px;
+
+}
+#mini2{
+	width: 100%;
+	height: 250px;
+	margin-top: 20px;
+
+}
+#micro{
+	width: 100%;
+	height: 250px;
+
+}
+
+#micro2{
+	margin-top: 20px;
+	width: 100%;
+	height: 250px;
+}
+
+.images_grandes{
+	border-radius: 20px 20px 0px 0px;
+
+}
+
+/*ici nous avons personnaliser le footer (en jouant sur la largeur et hauteur)et en utilisant toujours flex box et la propriété column*/
+
+footer{
+	width: 462px;
+	margin-left: 0px;
+	margin-top: 50px;
+	height: 100%;
+	border: 2px solid red;
+
+}
+
+
+#foot{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 50px;
+	width: auto;
+	height: auto;
+	margin-left: 20px;
+	border: 2px solid red;
+
+
+}
+
+
+
+.pied_de_page h2{
+
+	margin: 0px;
+}
+.pied_de_page{
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+
+}
 
 
 
