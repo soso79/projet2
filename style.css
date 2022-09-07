@@ -15,7 +15,9 @@ body{
 	
 }
 
-
+*{
+	border: 2px solid red;
+}
 
 /* on dispose les elements du nav et on les espace entre eux*/
 
@@ -683,6 +685,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 	#bloc_principal{
 		margin: 0px;
 		padding: 0px;
+		width: 100%;
 		border: 2px solid blue;
 	}
 
