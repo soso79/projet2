@@ -15,9 +15,7 @@ body{
 	
 }
 
-*{
-	border: 2px solid red;
-}
+
 
 /* on dispose les elements du nav et on les espace entre eux*/
 
@@ -444,7 +442,7 @@ aside img{
 	width: 80%;
 	height: 10%;
 	margin-top: 10px;
-	border: 2px solid red;
+	
 }
 
 .stars_aside{
@@ -686,7 +684,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 		margin: 0px;
 		padding: 0px;
 		width: 100%;
-		border: 2px solid blue;
+		
 	}
 
 
