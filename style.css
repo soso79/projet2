@@ -694,7 +694,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 
 		width: 100%;
 		flex-direction: column;
-		border: 2px solid red;
+		
 		
 		
 
@@ -707,7 +707,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 		width: 100%;
 		padding-left: 0px;
 		justify-content: center;
-		border: 2px solid red;
+		
 		
 		
 	}
@@ -735,7 +735,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 
 	h2{
 		
-		border: 2px solid red;
+		
 		
 		
 	}
@@ -746,14 +746,14 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 		text-align: center;
 		margin-left: 14px;
 		width: 100%;
-		border: 2px solid red;
+		
 		
 	}
 
 	ul{
 		width: 100%;
 		border-bottom: 2px  solid #F2F2F2;
-		border: 2px solid red;
+		
 		
 
 	}
@@ -767,7 +767,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 		font-size: 30px;
 		margin-left: 20px;
 		font-weight: bold;
-		border: 2px solid red;
+		
 		
 		
 	}
@@ -780,7 +780,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 	#megaman{
 		width: 80%;
 		margin-left: 20px;
-		border: 2px solid red;
+		
 		
 		
 	}
@@ -791,7 +791,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 		justify-content: center;
 		width: 95%;
 		margin-left: 14px;
-		border: 2px solid blueviolet;
+		
 		
 		
 	}
@@ -809,7 +809,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 		height: 43px;
 		font-size: 20px;
 		border-right: none;
-		border: 2px solid green;
+		
 		
 		
 		
@@ -830,7 +830,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 		align-items: center;
 		border-radius: 10px;
 		margin-left: -10px;
-		border: 2px solid red;
+		
 		
 		
 	}
@@ -847,7 +847,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 
 	width: 100%;
 	margin-left: 20px;
-	border: 2px solid red;
+	
 
 
 }
@@ -856,7 +856,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 	height: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	border: 2px solid red;
+	
 
 
 }
@@ -867,7 +867,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 	width: 40%;
 	margin-right: 10px;
 	margin-left: 20px;
-	border: 2px solid red;
+	
 
 }
 
@@ -875,7 +875,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 	width: 40%;
 	margin-top: 10px;
 	margin-left: 20px;
-	border: 2px solid red;
+	
 
 }
 
@@ -884,7 +884,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 	margin-top: 10px;
 	width: 60%;
 	margin-left: 20px;
-	border: 2px solid red;
+	
 
 }
 
@@ -892,7 +892,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 
 	margin-left: 20px;
 	width: 80%;
-	border: 2px solid red;
+	
 
 
 }
@@ -902,7 +902,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 .title{
 	margin-left: 14px;
 	width: 90%;
-	border: 2px solid red;
+	
 
 }
 #titi{
@@ -924,7 +924,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 	height: auto;
 	flex-direction: column-reverse;
 	margin-top: 50px;
-	border: 2px solid red;
+	
 
 
 }
@@ -935,7 +935,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 	height: 100%;
 	flex-direction: column;
 	justify-content: space-between;
-	border: 2px solid red;
+	
 
 
 }
@@ -948,7 +948,7 @@ Cela comprend la partie haut et hébergements , la partie bas et activités et l
 	height: 230px;
 	margin-top: 20px;
 	margin-left: 30px;
-	border: 2px solid red;
+	
 
 
 }
@@ -958,7 +958,7 @@ Cela comprend la partie haut et hébergements , la partie bas et activités et l
 	height: 150px;
 	width: 96%;
 	object-fit: cover;
-	border: 2px solid red;
+	
 
 }
 
@@ -973,7 +973,7 @@ Cela comprend la partie haut et hébergements , la partie bas et activités et l
 .ecriture{
 
 	margin-left: 15px;
-	border: 2px solid red;
+	
 
 }
 
@@ -981,7 +981,7 @@ Cela comprend la partie haut et hébergements , la partie bas et activités et l
 #populaire{
 
 	height: 630px;
-	width: 462px;
+	width: 100%;
 	border-radius: 0px;
 	margin-bottom: 40px;
 	margin: 0px;
@@ -992,7 +992,7 @@ Cela comprend la partie haut et hébergements , la partie bas et activités et l
 	height: 150px;
 	width: 90%;
 	margin-top: 20px;
-	border: 2px solid red;
+	
 
 
 }
@@ -1002,7 +1002,7 @@ Cela comprend la partie haut et hébergements , la partie bas et activités et l
 	height: 140px;
 	margin-left: 5px;
 	object-fit: cover;
-	border: 2px solid red;
+	
 
 }
 
@@ -1010,7 +1010,7 @@ Cela comprend la partie haut et hébergements , la partie bas et activités et l
 	justify-content: flex-start;
 	justify-content: space-between;
 	width: 100%;
-	border: 2px solid red;
+	
 
 
 }
@@ -1030,7 +1030,7 @@ Cela comprend la partie haut et hébergements , la partie bas et activités et l
 	width: 100%;
 	height: auto;
 	margin-top: 0px;
-	border: 2px solid red;
+	
 
 
 }
@@ -1042,7 +1042,7 @@ Cela comprend la partie haut et hébergements , la partie bas et activités et l
 	align-items: center;
 	width: 100%;
 	height: auto;
-	border: 2px solid red;
+	
 
 
 }
@@ -1060,7 +1060,7 @@ Cela comprend la partie haut et hébergements , la partie bas et activités et l
 	margin-top: 20px;
 	width: 90%;
 	margin-left: 30px;
-	border: 2px solid red;
+	
 
 
 }
@@ -1128,11 +1128,11 @@ Cela comprend la partie haut et hébergements , la partie bas et activités et l
 /*ici nous avons personnaliser le footer (en jouant sur la largeur et hauteur)et en utilisant toujours flex box et la propriété column*/
 
 footer{
-	width: 462px;
+	width: 100%;
 	margin-left: 0px;
 	margin-top: 50px;
 	height: 100%;
-	border: 2px solid red;
+	
 
 }
 
@@ -1145,7 +1145,7 @@ footer{
 	width: auto;
 	height: auto;
 	margin-left: 20px;
-	border: 2px solid red;
+	
 
 
 }
