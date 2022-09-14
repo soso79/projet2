@@ -358,6 +358,8 @@ h3{
 }
 
 
+
+
 /*la classe écriture nous permets de généraliser la taille de police pour les vignettes du site*/
 .ecriture{
 
@@ -472,6 +474,22 @@ aside img{
 	margin-top: 14px;
 	
 	
+}
+
+
+
+
+#hotel{
+
+    margin-left: 10px;
+	font-size: 15px;
+	margin-top: 5px;
+
+	
+}
+
+#hotel_ipad{
+	display: none !important;
 }
 
 
@@ -595,6 +613,7 @@ aside img{
 	height: 90%;
 	width: 100%;
 	border-radius: 20px 20px 20px 20px;
+	object-fit: cover;
 
 
 }
@@ -663,6 +682,51 @@ footer{
 	width: 70%;
 	
 }
+
+
+/*ici nous avons la partie tablette */
+
+
+@media screen and (max-width: 992px){
+
+
+
+
+.item{
+	width: 40%;
+	height: 25%;
+}
+
+
+.item img{
+	height: 50%;
+	width: 95%;
+	object-fit: cover;
+	margin-right: 5px;
+}
+
+
+
+.filtrespeciale2 p{
+	padding-bottom: 30px;
+
+color: blue;
+align-items: baseline;
+}
+.filtrespeciale2{
+	width: 400px;
+}
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -973,6 +1037,14 @@ Cela comprend la partie haut et hébergements , la partie bas et activités et l
 	margin-left: 15px;
 	
 
+}
+
+#hotel{
+	margin-left: 15px;
+}
+
+#hotel_ipad{
+	display: none !important;
 }
 
 
