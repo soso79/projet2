@@ -448,7 +448,7 @@ aside img{
 }
 
 .stars_aside{
-	padding-top: 40%;
+	margin-top: 90px;
 }
 
 
@@ -717,6 +717,18 @@ align-items: baseline;
 	width: 400px;
 }
 
+
+.item_aside{
+
+	height: 190px;
+}
+
+.stars_aside{
+	
+	margin-top: 50px;
+}
+
+
 }
 
 
@@ -974,7 +986,7 @@ Seul quelques ajustements concernant la taille de certains contenus ont été ad
 
 #titi2{
 	width: 90%;
-	color: yellowgreen;
+	
 
 }
 
@@ -1018,7 +1030,7 @@ Cela comprend la partie haut et hébergements , la partie bas et activités et l
 
 .item img{
 	height: 150px;
-	width: 96%;
+	width: 98%;
 	object-fit: cover;
 	
 
